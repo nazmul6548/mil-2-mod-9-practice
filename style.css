@@ -171,6 +171,12 @@ line-height: normal;
     .banner-img img{
         width: 100%;
     }
+    .some-text p{
+        padding-bottom: 60px;
+    }
+    .achive-icon-text{
+        width: 60%;
+    }
 
 
 
