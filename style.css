@@ -7,6 +7,8 @@
 .parents-p{
     font-size: 15px;
     color: #727272;
+    max-width: 800px;
+    margin: 0 auto;
 }
 header{
     background: rgba(255, 144, 14, 0.10);
@@ -85,6 +87,8 @@ line-height: normal;
     }
     .menu li a{
         color: #FF900E;
+        font-size: 18px;
+        font-weight: 600;
     }
     .header-text h1{
         font-size: 50px;
