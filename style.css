@@ -315,7 +315,7 @@ nav h3 {
 }
 .left-text{
   width:none;
-  width:350px;
+  width:300px;
   margin: 0 auto;
   text-align: center;
   padding-bottom: 0;
@@ -324,14 +324,27 @@ nav h3 {
   
 }
 .experience{
-  position: static;
-  bottom: 40px;
-  left: 80px;
-  position: relative;
+  /* position: static; */
+  position: none;
+  /* bottom: 40px; */
+  /* left: 80px; */
+  /* position: static; */
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.experience h1,.experience h6{
+  font-size: auto;
 }
 .img-section{
   padding-top: 0;
-  margin-top: 0;
+  /* margin-top: 0; */
+  text-align: center;
+  margin: 0 auto;
+  position: relative;
+  
 }
 
 
