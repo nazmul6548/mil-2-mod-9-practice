@@ -324,19 +324,25 @@ nav h3 {
   
 }
 .experience{
-  /* position: static; */
-  position: none;
-  /* bottom: 40px; */
-  /* left: 80px; */
-  /* position: static; */
+  position: static;
+  margin-left: auto;
+  margin-right: auto;
   text-align: center;
   display: flex;
   align-items: center;
   justify-content: center;
+  width: 220px;
+  position: relative;
+  bottom: 30px;
+  left: 0;
+  right: 0;
 
 }
 .experience h1,.experience h6{
   font-size: auto;
+  padding: 10px 5px 10px 5px;
+  /* font-size: 30px; */
+
 }
 .img-section{
   padding-top: 0;
@@ -422,15 +428,64 @@ nav h3 {
     margin: 0 auto;
   }
   .achive {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    /* display: grid; */
+    display: flex;
+    flex-direction:column;
+    /* grid-template-columns: repeat(2, 1fr); */
     justify-content: space-between;
-    /* align-items: center; */
-    /* justify-content: center; */
+    align-items: center;
+    justify-content: center;
     width: auto;
     margin: 0 auto;
     row-gap: 40px;
   }
   .achive-icon-text {
+  }
+
+
+
+  .main-section{
+    flex-direction: column;
+    gap: 30px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+  .img-section img{
+    width: 100%;
+  }
+  .letf-text{
+    text-align: center;
+  }
+  .experience{
+    position:static;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    margin-left: auto;
+  margin-right: auto;
+  width: 240px;
+  position: relative;
+  left: 0;
+  right: 0;
+  bottom: 40px;
+  }
+  .experience-child{
+    text-align: center;
+    width: 200px;
+  }
+  .experience h1,.experience h6{
+    font-size: auto;
+    padding: 10px 5px 10px 5px;
+    /* font-size: 30px; */
+  
+  }
+   
+
+
+  .company-logo{
+    flex-direction: column;
+    gap: 40px;
   }
 }
