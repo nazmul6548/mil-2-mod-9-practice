@@ -174,9 +174,7 @@ line-height: normal;
     .some-text p{
         padding-bottom: 60px;
     }
-    .achive-icon-text{
-        width: 60%;
-    }
+    
 
 
 
@@ -211,6 +209,9 @@ line-height: normal;
     
 
     }
+    .achive-icon-text{
+        width: 60%;
+    }
 }
 @media screen and (min-width:576px) and (max-width:992px) {
     nav{
@@ -233,6 +234,17 @@ line-height: normal;
     }
     .right-text-side{
         text-align: center;
+    }
+    .some-text{
+        text-align: center;
+
+    }
+    .achive{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        justify-content:space-between;
+        column-gap: 180px;
+        row-gap: 40px;
     }
     
 }
