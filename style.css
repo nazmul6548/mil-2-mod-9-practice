@@ -239,12 +239,22 @@ line-height: normal;
         text-align: center;
 
     }
+    .some-text p{
+        margin: 0 auto;
+    }
     .achive{
-        display: grid;
-        grid-template-columns: repeat(2,1fr);
+         display: grid;
+         grid-template-columns: repeat(2,1fr);
         justify-content:space-between;
-        column-gap: 180px;
+        /* align-items: center; */
+        /* justify-content: center; */
+        width: auto;
+        margin: 0 auto;
         row-gap: 40px;
+    }
+    .achive-icon-text{
+       
+
     }
     
 }
