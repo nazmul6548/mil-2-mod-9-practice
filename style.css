@@ -146,16 +146,34 @@ nav h3 {
     display: flex;
     padding-top: 100px;
     justify-content: space-between;
-    align-items: center;
-    justify-content: center;
+    /* align-items: center;
+    justify-content: center; */
     gap: 140px;
+}
+.left-text-t{
+    width: 480px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+   
+    
+}
+.left-text-t h1{
+    border-left: 3px solid #ff900e;
+    padding-left: 10px;
+    font-size: 40px;
+   
+
+}
+.left-text-t p{
+    padding-top: 20px;
+    padding-bottom: 50px;
 }
 .left-text{
     width: 480px;
     margin-bottom: 30px;
     border-radius: 8px;
 background: #FFF;
-
+padding-bottom: 50px;
 box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
 }
 .img-section img{
