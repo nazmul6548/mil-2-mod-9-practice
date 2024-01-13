@@ -280,6 +280,39 @@ nav h3 {
   .right-text-side {
     text-align: center;
   }
+
+.left-text-t{
+  width: 100%;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: 0;
+  margin-right: 0;
+}
+.left-text-t h1{
+  border-bottom: 2px solid #ff900e;
+  border-left: none;
+  padding-bottom: 5px;
+}
+.main-section{
+    flex-direction: column;
+    width: 100%;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+}
+.left-text{
+  /* max-width: 100%; */
+  width: 80%;
+  text-align: center;
+  
+}
+.img-section img{
+  width: 6;
+}
+
   .some-text {
     text-align: center;
   }
