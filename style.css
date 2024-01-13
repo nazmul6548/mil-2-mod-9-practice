@@ -191,6 +191,20 @@ line-height: normal;
     .right-text-side{
         text-align: center;
     }
+    .some-text{
+        text-align: center;
+    }
+    .some-text{
+        padding-top: 30px;
+        padding-bottom: 0px;
+    }
+    .achive{
+        flex-direction: column;
+        gap: 15px;
+        padding-top: 0;
+    
+
+    }
 }
 @media screen and (min-width:576px) and (max-width:992px) {
     nav{
