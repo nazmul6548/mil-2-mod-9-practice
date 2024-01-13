@@ -72,22 +72,26 @@ line-height: normal;
 
 
 @media screen and (max-width:576px) {
-    container{
-        /* width: 100%; */
-        margin: auto;
-    }
-    header{
-        width: 100%;
-    }
+
     nav{
         flex-direction: column;
+        padding: 20px;
     }
     .menu {
-        width: 100%;
-        padding-top: 40px;
+       flex-direction: column;
+       text-align: center;
+       gap: 20px;
+       padding-top: 20px;
     }
     .menu li a{
         color: #FF900E;
+    }
+    .header-text h1{
+        font-size: 50px;
+        padding-top: 10px;
+    }
+    .banner-img img{
+        width: 100%;
     }
     
 }
