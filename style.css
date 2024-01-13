@@ -99,6 +99,16 @@ line-height: normal;
     }
     
 }
-@media screen and (min-width:576) and (max-width:992px) {
+@media screen and (min-width:576px) and (max-width:992px) {
+    nav{
+        flex-direction: column;
+        gap: 20px;
+        padding-bottom: 45px;
+    }
+    .menu li a{
+        color:goldenrod;
+        font-size: 18px;
+        font-weight: 600;
+    }
     
 }
