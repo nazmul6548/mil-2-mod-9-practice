@@ -137,6 +137,10 @@ line-height: normal;
     .banner-img img{
         width: 100%;
     }
+
+
+
+
     .all-in-one{
         flex-direction: column;
     }
@@ -164,6 +168,17 @@ line-height: normal;
         color:goldenrod;
         font-size: 18px;
         font-weight: 600;
+    }
+    .all-in-one{
+        flex-direction: column;
+    }
+    .left-img-side{
+        /* width: 100%; */
+        margin-left: 0;
+        
+    }
+    .right-text-side{
+        text-align: center;
     }
     
 }
